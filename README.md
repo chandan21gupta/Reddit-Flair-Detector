@@ -23,9 +23,9 @@ Web contains the flask application deployed for heroku server.
 ## Pre Deployment
 
 1. The data was collected using the praw library in Python.The codebase is located in the [Scripts](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/scripts) under the name reddit_webScrapper.py
-For comments - top ten comments were considered along with their authors.
+For comments - top ten comments were considered along with their authors. Total 100 posts are considered for data analysis. It is stored in a database using mongodb. 
 
-2. After the data collection, and going through various articles on internet about first step towards analysis of collected data, I got across [this](https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568) wonderful article which explained everything, from the data pre-processing to data analysis in Natural Language Processing. The data was cleaned using textcleaning.py [Scripts](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/scripts) 
+2. After the data collection, and going through various articles on internet about first step towards analysis of collected data, I got across [this](https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568) wonderful article which explained everything, from the data pre-processing to data analysis in Natural Language Processing. The data was cleaned using textcleaning.py [Scripts](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/scripts), which I saved in a csv file (cleaned_dataset.csv). 
 
 3. After cleaning the data, various ML algorithms were trained with testing and training dataset in the ratio 3:7.
 
