@@ -1,0 +1,4 @@
+https://medium.com/themlblog/splitting-csv-into-train-and-test-data-1407a063dd74
+https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+https://api.mongodb.com/python/current/tutorial.html
+http://www.storybench.org/how-to-scrape-reddit-with-python/
