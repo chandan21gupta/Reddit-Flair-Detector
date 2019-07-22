@@ -1,7 +1,18 @@
 import pandas as pd
 import textcleaning as TP
+import pymongo
+from pymongo import MongoClient
 
-posts = pd.read_csv('reddit-india-data-sample.csv')
+client = MongoClient('mongodb://localhost:27017/')
+db = client.reddit
+collection = db.posts
+posts = pd.DataFrame(list(collection.find()))
+
+del posts['_id']
+print(posts)
+
+
+#posts = pd.read_csv('reddit-india-data-sample.csv')
 
 posts['title'] = posts['title'].apply(TP.string_form)
 posts['body'] = posts['body'].apply(TP.string_form)
