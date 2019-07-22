@@ -15,7 +15,7 @@ and tries to predict the flair using them by applying the finalized model.
 
 3.  Go inside the cloned directory and enter command ```bash pip install -r requirements.txt```.
 
-4. Go inside the Web directory and enter command ```bash Python3 flask_app.py``` to start the server.
+4. Go inside the Web directory and enter command ```bash Python3 flask_app.py``` to start the server. It can be found [here](https://github.com/chandan21gupta/Web). Simply clone into it.
 
 ## Files And Directories
 [Data](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/Data) contains mongodb instance of raw data,its csv and the resulting data after cleaning and pre processing. It also contains a script called graph.py that generates statistics for data.
