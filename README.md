@@ -37,4 +37,4 @@ After that, the training and tesing ratio was increased to improve the model (9:
 
 ## During Deployment
 
-A flask app was made with two routes - "/" the home route, and "/action_page" for displaying the predicted flair.
+A flask app was made with two routes - "/" the home route, "/action_page" for displaying the predicted flair, "/stats" for statistics.
