@@ -45,6 +45,13 @@ The average accuracy remained around 50-55%.
 After that, many features were combined on the basis of their standlone accuracies. The combination of features that gave the best accuracy (60-65%) was that of title,comments,url and body, with Logistic Regression giving the best accuracy(66%).
 After that, the training and tesing ratio was increased to improve the model (9:1), since the data was sparse.
 
+Basically five ML algorithms were used:
+ 1. Naive Bayes
+ 2. Linear Suport Vector Machine
+ 3. Logistic Regression
+ 4. Random Forest
+ 5. Multi Layer Perceptron
+
 ## During Deployment
 
 A flask app was made with two routes - "/" the home route, "/action_page" for displaying the predicted flair, "/stats" for statistics.
