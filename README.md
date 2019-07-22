@@ -49,6 +49,8 @@ After that, the training and tesing ratio was increased to improve the model (9:
 
 A flask app was made with two routes - "/" the home route, "/action_page" for displaying the predicted flair, "/stats" for statistics.
 
+#### Note - Only Web directory has been deployed to heroku, as others were just initial scripts for data analysis.
+
 ## Dependencies
 requirements.txt contains the list of all the dependencies.
 
