@@ -7,6 +7,16 @@ The app can be used here [Reddit Flair Detector](https://flask-reddit-flair.hero
 The user enters the url of the required post. The app takes the url, extracts various features from it (comments, authors, body .etc.)
 and tries to predict the flair using them by applying the finalized model.
 
+## Running on localhost
+
+1 . clone into repository ```bash https://github.com/chandan21gupta/Reddit-Flair-Detector```.
+
+2.  Create a virtual environment by the command ```bash virtualenv -p python3 env```.
+
+3.  Go inside the cloned directory and enter command ```bash pip install -r requirements.txt```.
+
+4. Go inside the Web directory and enter command ```bash Python3 flask_app.py``` to start the server.
+
 ## Files And Directories
 [Data](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/Data) contains mongodb instance of raw data,its csv and the resulting data after cleaning and pre processing. It also contains a script called graph.py that generates statistics for data.
 
