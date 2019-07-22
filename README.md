@@ -8,7 +8,7 @@ The user enters the url of the required post. The app takes the url, extracts va
 and tries to predict the flair using them by applying the finalized model.
 
 ## Files And Directories
-[Data](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/Data) contains mongodb instance of raw data,its csv and the resulting data after cleaning and pre processing.
+[Data](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/Data) contains mongodb instance of raw data,its csv and the resulting data after cleaning and pre processing. It also contains a script called graph.py that generates statistics for data.
 
 [Finalized_Model](https://github.com/chandan21gupta/Reddit-Flair-Detector/tree/master/Finalised_model) contains the finalizes ML algorithm and combined data feature which gave the maximum accuracy during testing and training.
 
