@@ -32,6 +32,8 @@ For comments - top ten comments were considered along with their authors.
 First standalone features were tried like comments, title, body, url .etc. However the accuracy was not upto the mark.
 The average accuracy remained around 50-55%.
 After that, many features were combined on the basis of their standlone accuracies. The combination of features that gave the best accuracy (60-65%) was that of title,comments,url and body, with Logistic Regression giving the best accuracy(66%).
-After the, the training and tesing ratio was increased to improve the model (9:1), since the data was not much.
+After that, the training and tesing ratio was increased to improve the model (9:1), since the data was sparse.
 
+## During Deployment
 
+A flask app was made with two routes - "/" the home route, and "/action_page" for displaying the predicted flair.
