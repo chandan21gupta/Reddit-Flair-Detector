@@ -30,3 +30,6 @@ def clean_text(text):
 
 def SirajRandi():
     print("sirajrandi")
+    
+def demo():
+    return "HELLO WORLD"
