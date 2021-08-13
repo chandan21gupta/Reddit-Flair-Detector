@@ -27,9 +27,3 @@ def clean_text(text):
     text = BAD_SYMBOLS_RE.sub('', text) # delete symbols which are in BAD_SYMBOLS_RE from text
     text = ' '.join(word for word in text.split() if word not in STOPWORDS) # delete stopwors from text
     return text
-
-def SirajRandi():
-    print("sirajrandi")
-    
-def demo():
-    return "HELLO WORLD"
